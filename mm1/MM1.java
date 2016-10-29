@@ -171,11 +171,13 @@ public class MM1 {
 
         while (stats.numArrivals < params.getTotalNumOfCustomers()) {
 
-            /* Update time-average statistical accumulators. */
-            updateTimeAvgStats();
 
             /*  final SimEvent nextEvent = eventList.removeHeadEvent(); */
             final SimEvent nextEvent = timing();
+
+
+            /* Update time-average statistical accumulators. */
+            updateTimeAvgStats();
 
             /* Invoke the appropriate event */
             EventTag tag = nextEvent.tag;
