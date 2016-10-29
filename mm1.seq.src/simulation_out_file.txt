@@ -1,0 +1,27 @@
+Two successive Single-server queueing systems
+
+Mean interarrival time      1.000 minutes
+
+Mean service1 time           0.700 minutes
+
+Max travel time time      2.000 minutes
+
+Mean service2 time           0.900 minutes
+
+Total Simulation Time     1000.00
+
+
+
+Averay delay in queue1 = 1.552 minutes
+
+Average number in queue1 = 1.846
+
+Server1 utilization = 0.770
+
+Averay delay in queue2 = 2.089 minutes
+
+Average number in queue2 = 2.060
+
+Server2 utilization = 0.712
+
+Time simulation ended = 1000.508 minutes

@@ -1,0 +1,11 @@
+mean.arrival.time = 1
+
+mean.service.time1 = 0.7
+
+mean.service.time2 = 0.9
+
+travel.time = 2.0
+
+end.of.simulation = 1000
+
+out.file.path = simulation_out_file.txt
