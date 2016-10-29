@@ -1,0 +1,10 @@
+
+end.of.simulation = 1000
+
+num.servers = 2
+
+mean.arrival.time = 1
+
+mean.service.time = 1
+
+out.file.path = src/simulation_out_file.txt

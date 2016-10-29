@@ -1,0 +1,19 @@
+Multiple Servers queueing system
+
+Number of Servers           2 
+
+Mean inter-arrival time      1.000 minutes
+
+Mean service time           1.000 minutes
+
+End of Simulation        1000.00
+
+
+
+Average delay in queue = 0.282 minutes
+
+Average number in queue = 0.294
+
+Server utilization = 0.544
+
+Time simulation ended = 1000.570 minutes
