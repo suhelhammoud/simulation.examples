@@ -1,0 +1,16 @@
+Single-product inventory system
+
+Initial inventory level                     100 items
+
+Mean interdemand time                      0.10
+
+Delivery lag range                         0.50 to      1.00 months
+
+
+
+capacity = 100 
+ threshold =  60 
+avg. holding cost  =           66.92 
+avg. shortage cost =            1.93 
+avg. ordering cost =           85.65 
+total costs        =          154.50
