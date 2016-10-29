@@ -127,16 +127,17 @@ public class MM1 {
      */
     void updateTimeAvgStats() {
 
-		/* Compute time since last event, and update last-event-time marker. */
+	/* Compute time since last event, and update last-event-time marker. */
         double timeSinceLastEvent = (eventList.timeSinceLastEvent());
 
 
-		/* Update area under number-in-queue function. */
+	/* Update area under number-in-queue function. */
         if (serverStatus == ServerStatus.BUSY)
-            stats.areaNumInQ += timeSinceLastEvent;
+        	stats.areaNumInQ += (queue.size() * timeSinceLastEvent);
 
-		/* Update area under server-busy indicator function. */
-        stats.areaServerStatus += (queue.size() * timeSinceLastEvent);
+
+	/* Update area under server-busy indicator function. */
+        stats.areaServerStatus += timeSinceLastEvent;
     }
 
     /**
