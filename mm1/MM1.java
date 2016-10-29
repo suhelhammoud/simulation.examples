@@ -153,8 +153,7 @@ public class MM1 {
 
 
         double avgDelayInQueue = stats.totalDelaysInQueue / stats.numArrivals;
-        outfile.write("totalDeleays " + avgDelayInQueue);
-        outfile.write(String.format("\n\nAveray delay in queue = %4.3f minutes",
+        outfile.write(String.format("\n\Average delay in queue = %4.3f minutes",
                 avgDelayInQueue));
 
         outfile.write(String.format("\n\nAverage number in queue = %4.3f",
