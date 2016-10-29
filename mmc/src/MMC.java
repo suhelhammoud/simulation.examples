@@ -75,7 +75,7 @@ public class MMC {
 
 
     /**
-     * Check if all servers are busy
+     * Check if all servers were busy
      * @return false if any was IDLE
      */
     private boolean allServersBusy() {
@@ -87,7 +87,7 @@ public class MMC {
 
     /**
      * Set the first IDLE server in the servers array to be BUSY
-     * @return false if all servers were BUSY
+     * @return false if all servers were busy
      */
     private boolean setOneMoreBusyServer() {
         //assert allServersBusy() == false;
