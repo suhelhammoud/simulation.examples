@@ -1,0 +1,15 @@
+
+
+holding.cost = 1
+shortage.cost = 5
+setup.cost = 32
+incremental.cost = 3
+capacity = 100
+threshold = 60
+num.months = 1000
+
+mean.inter.demand.time = 0.1
+delivery.lag.min = 0.5
+delivery.lag.max = 1.0
+
+out.file.path = simulation_out_file.txt

@@ -1,0 +1,7 @@
+num.customers = 1000
+
+mean.arrival.time = 10
+
+mean.service.time = 5
+
+out.file.path = simulation_out_file.txt
