@@ -132,12 +132,13 @@ public class MM1 {
 
 
 	/* Update area under number-in-queue function. */
-        if (serverStatus == ServerStatus.BUSY)
+       
         	stats.areaNumInQ += (queue.size() * timeSinceLastEvent);
 
 
 	/* Update area under server-busy indicator function. */
-        stats.areaServerStatus += timeSinceLastEvent;
+	     if (serverStatus == ServerStatus.BUSY)
+                stats.areaServerStatus += timeSinceLastEvent;
     }
 
     /**
@@ -153,7 +154,7 @@ public class MM1 {
 
 
         double avgDelayInQueue = stats.totalDelaysInQueue / stats.numArrivals;
-        outfile.write(String.format("\n\Average delay in queue = %4.3f minutes",
+        outfile.write(String.format("\nAverage delay in queue = %4.3f minutes",
                 avgDelayInQueue));
 
         outfile.write(String.format("\n\nAverage number in queue = %4.3f",
@@ -203,7 +204,7 @@ public class MM1 {
 
     public static void main(String[] args) throws IOException {
         MM1 mm1 = new MM1();
-        mm1.initSimulation("src/input.params.txt");
+        mm1.initSimulation("input.params.txt");
         mm1.runSimulation();
     }
 
