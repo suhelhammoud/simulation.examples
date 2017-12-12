@@ -1,0 +1,9 @@
+# input parameters
+num.terminals = 30
+mean.think.time = 25
+mean.service.time = 0.8
+service.quantum.time = 0.1
+swap.time = 0.015
+num.required.jobs = 1000
+end.simulation.time = 3600000
+out.file.path = cpu_time_shared_out.txt

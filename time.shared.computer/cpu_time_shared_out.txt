@@ -1,0 +1,12 @@
+Time-shared Computer Model
+Number of terminals         3
+Mean think time      25.000 seconds
+Mean service time       0.800 seconds
+Quantum       0.100 seconds
+Swap time       0.015 seconds
+Number of jobs processed           10
+Average TimeSharedComputer utilization       0.171
+Average response time       1.201
+Average number in queue       0.181
+jobqueue response time       1.201
+jobqueue number in queue       0.181
