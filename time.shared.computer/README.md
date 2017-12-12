@@ -4,7 +4,7 @@
 [events]: docs/events.png
 
 
-## Time Shared Simulation Model
+## Simulation of Time Shared Computer Model
 Reference: A. M. Law, Simulation Modeling & Analysis 3rd edition,
 Example 2.5 page 129 Time-Shared Computer Model
 
