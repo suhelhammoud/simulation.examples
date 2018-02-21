@@ -1,0 +1,11 @@
+num.trucks = 6
+lower.travel.time = 40
+max.travel.time = 100
+
+mean.loader.service.time = 10
+mean.scale.service.time = 8
+
+
+end.of.simulation.time = 100000
+
+out.file.path = simulation_out_file.txt

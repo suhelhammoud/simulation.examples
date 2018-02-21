@@ -1,0 +1,35 @@
+Dump Truck System
+
+
+----------------- Inputs --------------------
+
+Number of trucks = 6 
+
+Mean loader service time     10.000 minutes
+
+Mean scale service time           8.000 minutes
+
+Lower travel time time     40.000 minutes
+
+Max travel time time    100.000 minutes
+
+Total Simulation Time   100000.00
+
+
+----------------- Outputs --------------------
+
+Average delay in loader = 8.010 minutes
+
+Average number in loader's queue = 0.483
+
+Loader utilization = 0.732
+
+Average delay in scale queue = 4.823 minutes
+
+Average number in scale = 0.262
+
+Scale utilization = 0.559
+
+Total number of trucks served= 5928 trucks
+
+Time simulation ended = 100017.168 minutes
