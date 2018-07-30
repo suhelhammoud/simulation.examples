@@ -1,0 +1,9 @@
+mean.arrival.time = 1
+
+mean.service.time.A = 0.8
+
+mean.service.time.B = 1.2
+
+customers.to.End.simulation = 1000
+
+out.file.path = simulation_out_file.txt

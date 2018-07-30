@@ -1,0 +1,50 @@
+Two sequential Single-server queueing systems
+
+Mean interarrival time      1.000 minutes
+
+Mean service1 time           0.800 minutes
+
+Mean service2 time           1.200 minutes
+
+Number of Served Customers = 1000 customers
+
+Total Simulation Time      997.48
+===================================================================
+
+Customers of Type one: 
+
+Number of Customers of type one = 591 customers
+
+Average time spent for customers of type one = 1.104 minutes/customer
+
+Number of balks for customers of type 1 = 151 customers
+===================================================================
+
+Customers of Type two: 
+
+Number of Customers of type two = 409 customers
+
+Average time spent for customers of type two = 3.144 minutes/customer
+===================================================================
+
+Server A : 
+
+Number of served customers in Server A = 440
+
+Average number in queueA = 0.765
+
+Max number in queueA = 6
+
+Server A utilization = 0.803
+===================================================================
+
+Server B : 
+
+Number of served customers in Server B = 409
+
+Average number in queueB = 0.187
+
+Server B utilization = 0.354
+
+Max number in queueB = 5
+===================================================================
