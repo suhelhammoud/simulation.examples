@@ -1,0 +1,8 @@
+
+max.simulation.time = 12 * 60 * 60
+max.available.lines =
+mean.connect.from.a =
+mean.connect.from.b =
+mean.call.duration =
+out.file.path = simulation_out_file.txt
+
